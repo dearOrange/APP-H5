@@ -1,0 +1,37 @@
+.noConcerShop{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	background: #edf2f7;
+}
+.noConcerShop .noConcerFactory{
+	width: 100%;
+	height: 2rem;
+}
+.noConcerShop .noConcerFactory .noConcerText{
+	height: 0.693rem;
+	font-size: 0.227rem;
+	line-height:0.693rem;
+	color: #b2bfd0;
+	text-align: center;
+	letter-spacing: .008rem;
+}
+.noConcerShop .noConcerFactory .noConcerGoUrl{
+	height: 0.173rem;
+	font-size: 0.173rem;
+	letter-spacing: 0.005rem;
+	color: #ccc;
+	text-align: center;
+}
+.noConcerShop .noConcerFactory .noConcerImg{
+	height: 1.134rem;
+	display: flex;
+	justify-content: center;
+}
+.noConcerShop .noConcerFactory .noConcerImg span{
+	width: 1.134rem;
+	height: 1.134rem;
+	background: pink;
+	background: url(../../images/vendorsConcer/storeLogo.png) no-repeat center;
+	background-size:1.134rem ;
+}

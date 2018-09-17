@@ -1,0 +1,133 @@
+.concerShop{
+	height: 100%;
+	background-color:#edf2f7 ;
+}
+.concerShop .header{
+	height:  0.853rem;
+}
+/*车型品牌信息样式*/
+.concerShop .carInfo{
+	height: 0.533rem;
+	background-color:#ffffff;
+	padding: 0.16rem;
+}
+.concerShop .brandLogo{
+	width: 0.533rem;
+	height: 0.533rem;
+	float: left;
+}
+.concerShop .brandLogo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.concerShop .vehicleInfo{
+	float: left;
+	height:0.513rem ;
+	margin-left: 0.087rem;
+	padding-top:0.02rem ;
+}
+.concerShop .vehicleInfo p{
+	height: 0.170rem;
+	font-size: 0.170rem;
+	font-weight: 600;
+}
+.concerShop .vehicleInfo p span{
+	margin: 0 0.087rem;
+}
+.concerShop .vehicleInfo p:last-child:first-child{
+	
+}
+.concerShop .vehicleInfo p:last-child{
+	color: #999;
+}
+
+/*查看智能厂商目录样式*/
+.concerShop .directory{
+	height: 0.84rem;
+	line-height: 0.42rem;
+	font-size: 0.173rem;
+	color: #939ead;
+	padding-left: 0.173rem;
+}
+ /*品牌展示样式*/
+.concerShop .brandDisplay{
+	box-sizing: border-box;
+} 
+.concerShop .brandDisplay li{
+	height: 1.253rem;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	border: 0.013rem solid #dce6ef;
+	margin: 0 0 -0.013rem -0.013rem;
+    position: relative; 
+    z-index: 0;
+	background-color: #ffffff;
+}
+.concerShop .brandDisplay li a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.concerShop .brandDisplay li.selected{
+	border: 0.013rem solid #d53533;
+	background:#fff url(../../images/concerShop/icon_pitch.png) no-repeat right top;
+	background-size:0.28rem 0.28rem;
+	z-index: 1;
+}
+.concerShop .brandDisplay li a img{
+	width: auto;
+	height:auto;
+	max-height: 1.2rem;
+	max-width: 1.1rem;
+}
+.concerShop .isNeedConcer{
+	width: 100%;
+	height: 0.633rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: 0.227rem;
+	color: #fff;
+	line-height: 0.633rem;
+	text-align: center;
+}
+.concerShop .isNeedConcer .needConcer{
+	width: 100%;
+	height: 0.633rem;	
+}
+.isNoAdd{
+	background: #ee5d5b;
+}
+.isAdd{
+	background: #d53533;
+}
+.concerShop .noNeedConcer{
+	width: 100%;
+	height: 0.633rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.concerShop .noNeedConcer .noNeedConcer_left{
+	width: 50%;
+	font-size: 0.227rem;
+	color: #fff;
+	line-height: 0.633rem;
+	text-align: center;
+	float: left;
+	background: #ee5d5b;
+}
+.concerShop .noNeedConcer .noNeedConcer_right{
+	width: 50%;
+	font-size: 0.227rem;
+	color: #fff;
+	line-height: 0.633rem;
+	text-align: center;
+	float: right;
+	background: #d53533;
+}

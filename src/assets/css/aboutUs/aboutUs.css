@@ -1,0 +1,63 @@
+.aboutUs{
+	height: 100%;
+	background: url(../../images/aboutUs/bg_11.png) repeat;
+}
+.aboutUs .header{
+	height:  0.853rem;
+}
+/*品牌logo版本*/
+.aboutUs .brandLogoInfo{
+	height: 1.6rem;
+	padding:0.66rem 0;	
+}
+.aboutUs .brandLogoInfo .autoBrandLogo{
+	height: 0.87rem;
+	padding: 0 50%;
+}
+.aboutUs .brandLogoInfo .autoBrandLogo img{
+	display: block;
+	width: 0.87rem;
+	height: 0.87rem;
+	margin-left: -0.435rem;
+}
+.aboutUs .brandLogoInfo .version{
+	height: 1.77rem;
+	text-align: center;
+	font-size: 0.173rem;
+}
+.aboutUs .brandLogoInfo .version p:first-child{
+	margin-top: 0.16rem;
+}
+.aboutUs .brandLogoInfo .version p:nth-child(2){
+	margin-top: 0.1rem;
+	color: #999;
+	
+}
+.aboutUs .brandLogoInfo .version p:last-child{
+	height: 0.853rem;
+	margin-top:0.187rem;
+	padding: 0 0.4rem;
+	color: #999;
+	text-align: center;
+}
+.aboutUs .erCode{
+	height: 2.48rem;
+	text-align: center;
+	margin-top:0.50rem;
+}
+.aboutUs .erCode img{
+	width:2.48rem;
+	height: 2.48rem;
+}
+.aboutUs .erCodeTit{
+	margin-top: 0.04rem;
+	padding: 0 50%;
+	font-size: 0.173rem;
+}
+.aboutUs .erCodeTit span{
+	display: block;
+	width: 2.48rem;
+	margin-left: -1.24rem;
+	line-height: 0.28rem;
+	color: #999;
+}

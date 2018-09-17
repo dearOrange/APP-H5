@@ -1,0 +1,198 @@
+.selectShop{
+	height: 100%;
+	background-color:#edf2f7 ;
+}
+.selectShop .header{
+	height:  0.853rem;
+}
+/*车型品牌信息样式*/
+
+.selectShop .carInfo{
+	height: 0.533rem;
+	background-color:#ffffff;
+	padding: 0.16rem;
+	font-size: 0.178rem;
+}
+.selectShop .brandLogo{
+	width: 20%;
+	height:0.533rem ;
+	float: left;
+}
+.selectShop .brandLogo img{
+	width: 0.533rem;
+	height:0.533rem ;
+}
+.selectShop .vehicleInfo{
+	width: 80%;
+	float: left;
+	height:0.533rem ;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.selectShop .vehicleInfo p{
+	height: 0.170rem;
+	font-size: 0.170rem;
+	font-weight: 600;
+}
+.selectShop .vehicleInfo b{
+	display: block;
+	height: 0.13rem;
+}
+.selectShop .vehicleInfo p span{
+	margin: 0 0.087rem;
+}
+
+.selectShop .vehicleInfo p:last-child{
+	color: #999;
+	width: 100%;
+	overflow: hidden;
+	height: .2rem;
+}
+
+
+/*查看智能厂商目录样式*/
+.selectShop .directory{
+	height: 0.493rem;
+	line-height: 0.453rem;
+	font-size: 0.173rem;
+	color: #939ead;
+	padding-left: 0.173rem;
+}
+ /*品牌展示样式*/
+.selectShop .brandDisplay{
+	box-sizing: border-box;
+	border-left: 1px solid #dce6ef;	
+} 
+.selectShop .brandDisplay li{
+	height: 1.253rem;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	border-top: 1px solid #dce6ef;
+	border-right: 1px solid #dce6ef;
+	border-bottom: 1px solid #dce6ef;
+	background-color: #ffffff;
+	font-size: 0.16rem;
+}
+
+
+.selected{
+	border: 2px solid #d53533;
+	background: url(../../images/selectShop/icon_pitch.png) no-repeat right top;
+	background-size:0.28rem 0.28rem;
+}
+.selectShop .brandDisplay li dl dt{
+	width: 1rem;
+	height: 0.64rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	padding-top:0.16rem ;
+	margin:0 0.125rem;
+	float:left;
+	clear: left;
+}
+
+.selectShop .brandDisplay li dl img{
+	width: auto;
+	height:auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+.selectShop .brandDisplay li dl dd{
+	/*margin-top: .05rem;*/
+	width: 100%;
+	height: .24rem;
+	font-size: 0.14rem;
+	line-height: .24rem;
+	text-align: center;
+	color: #666;
+	float: left;
+	clear: left;
+}
+.selectShop .noConcerFactory{
+	width: 100%;
+	margin-top: 1rem;
+}
+.selectShop .noConcerFactory .noConcerText{
+	height: 0.693rem;
+	font-size: 0.227rem;
+	color: #b2bfd0;
+	text-align: center;
+	letter-spacing: .008rem;
+	padding: 0 0.4rem;
+}
+.selectShop .noConcerFactory .noConcerGoUrl{
+	height: 1.84rem;
+	padding: 0 0.4rem;
+	margin-top:0.373rem ;
+}
+.selectShop .noConcerFactory .noConcerGoUrl fieldset{
+	height:1.84rem ;
+	border-top: 1px solid #9fadc2;
+	box-sizing: border-box;
+}
+.selectShop .noConcerFactory .noConcerGoUrl fieldset legend{
+	font-size: 0.178rem;
+	color:#c63231 ;
+	text-align: center;
+	width: 3.08rem;
+	height: 0.178rem;
+	background: #edf2f7;
+	line-height: 0.178rem;
+}
+.selectShop .noConcerFactory .noConcerGoUrl fieldset .showProgess{
+	height: 1.333rem;
+	margin-top: 0.507rem;
+}
+
+.selectShop .noConcerFactory .noConcerGoUrl fieldset .showProgess p:nth-child(3) b{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url(../../images/icon_userlogin.png) no-repeat center;
+	background-size:0.2rem ;
+	margin: 0 .05rem;
+}
+.selectShop .noConcerFactory .noConcerGoUrl fieldset .showProgess p{
+	line-height: 0.333rem;
+	font-size: 0.178rem;
+	color: #a4b2bf;
+}
+.selectShop .noConcerFactory .noConcerImg{
+	height: 1.134rem;
+	display: flex;
+	justify-content: center;
+}
+.selectShop .noConcerFactory .noConcerImg span{
+	width: 1.134rem;
+	height: 1.134rem;
+	background: pink;
+	background: url(../../images/vendorsConcer/storeLogo.png) no-repeat center;
+	background-size:1.134rem ;
+}
+.selectShop .isNodata{
+	height: 2.52rem;
+	margin-top:1.413rem ;
+}
+.selectShop .isNodata div{
+	width: 1.52rem;
+	height: 1.52rem;
+	background: url(../../images/selectShop/noData.png) no-repeat center;
+	background-size:1.52rem ;
+	margin: 0 auto;
+}
+.selectShop .isNodata p.tits{
+	height: 0.6rem;
+	line-height: .6rem;
+	font-size: 0.213rem;
+	color: #90a5c2;
+	text-align: center;
+}
+.selectShop .isNodata p:last-child{
+	height: 0.4rem;
+	font-size: 0.178rem;
+	color: #999;
+	text-align: center;
+}
